@@ -1,0 +1,9 @@
+const config = {
+    DB_CONNECTION_STRING : "mongodb+srv://namalchandrasekara01:8Gi2TBrpXitVzrj7@saru.f4vn4zx.mongodb.net/?retryWrites=true&w=majority",
+    GOOGLE_CLIENT_ID: "531159811579-68jb3355bqm9mpuov8hkefvt97s5r9mn.apps.googleusercontent.com",
+    GOOGLE_CLIENT_SECRET : "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",
+    GOOGLE_REDIRECT_URL: "http://localhost:8090/auth/google/callback",
+    SESSION_SECRET: "process.env.SESSION_SECRET"
+
+}
+export default config;
